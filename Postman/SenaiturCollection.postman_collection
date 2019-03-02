@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "670bb87d-5a94-420f-b131-f2bc69773115",
+		"name": "SenaiturCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pacotes",
+			"item": [
+				{
+					"name": "Listar Todos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Pacotes/ListarTodos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pacotes",
+								"ListarTodos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\t{\r\n\t\t\"nome\": \"BONITO VIA CAMPO GRANDE - 1 PASSEIO - 5 DIAS / 4 DIÁRIAS\",\r\n\t\t\"descricao\": \"Localizado no estado de Mato Grosso do Sul e ao sul do Pantanal, Bonito possui centenas de cachoeiras, rios e lagos de águas cristalinas, além de cavernas inundadas, paredões rochosos e uma infinidade de peixes. Os aventureiros costumam render-se facilmente a esse destino regado por trilhas ecológicas, passeios de bote e descidas de rapel pelas inúmeras quedas d'água da região.\",\r\n\t\t\"dataIda\": \"03/28/19\",\r\n\t\t\"dataVolta\": \"04/01/19\",\r\n\t\t\"cidade\": \"Bonito\",\r\n\t\t\"valor\": 1004.00,\r\n\t\t\"ativo\": true\r\n\t}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Pacotes/Cadastrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pacotes",
+								"Cadastrar"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

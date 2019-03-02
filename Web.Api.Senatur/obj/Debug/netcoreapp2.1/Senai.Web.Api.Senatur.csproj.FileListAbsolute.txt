@@ -1,0 +1,28 @@
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\bin\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.deps.json
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\bin\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.runtimeconfig.json
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\bin\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.runtimeconfig.dev.json
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\bin\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.dll
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.csprojAssemblyReference.cache
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.csproj.CoreCompileInputs.cache
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.RazorAssemblyInfo.cache
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.RazorAssemblyInfo.cs
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.AssemblyInfoInputs.cache
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.AssemblyInfo.cs
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.RazorTargetAssemblyInfo.cache
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\bin\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.pdb
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.dll
+C:\Users\47326175810\Desktop\Sprint 2\Senai Web Api Senatur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.pdb
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\bin\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.deps.json
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\bin\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.runtimeconfig.json
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\bin\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.runtimeconfig.dev.json
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\bin\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.dll
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\bin\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.pdb
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.csprojAssemblyReference.cache
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.csproj.CoreCompileInputs.cache
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.RazorAssemblyInfo.cache
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.RazorAssemblyInfo.cs
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.AssemblyInfoInputs.cache
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.AssemblyInfo.cs
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.RazorTargetAssemblyInfo.cache
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.dll
+E:\o\Jogos\Outros\Meus Projetos\APIs\WebApi-SenaiTur\Web.Api.Senatur\obj\Debug\netcoreapp2.1\Senai.Web.Api.Senatur.pdb
