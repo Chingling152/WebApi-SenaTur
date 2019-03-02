@@ -44,7 +44,7 @@ namespace Senai.Web.Api.Senatur.Controllers {
             }
         }
 
-        [HttpPost("Remover/{ID}")]
+        [HttpDelete("Remover/{ID}")]
         public IActionResult Remover(int ID) {
             try {
                 Pacotes.Remover(ID);
@@ -53,5 +53,16 @@ namespace Senai.Web.Api.Senatur.Controllers {
                 return BadRequest(exc.Message);
             }
         }
+
+        [HttpPut("Alterar")]
+        public IActionResult Alterar(PacotesDomain pacote) {
+            try {
+                Pacotes.Alterar(pacote);
+                return Ok(Pacotes.ListarTodos());
+            } catch (Exception exc) {
+                return BadRequest(exc.Message);
+            }
+        }
+
     }
 }

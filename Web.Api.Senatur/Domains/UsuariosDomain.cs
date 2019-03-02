@@ -1,9 +1,10 @@
 ﻿using Senai.Web.Api.Senatur.Enums;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Senai.Web.Api.Senatur.Domains {
-    [Table("USUARIOS")]
+    [Table("Usuarios")]
     public class UsuariosDomain {
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -11,16 +12,19 @@ namespace Senai.Web.Api.Senatur.Domains {
         [Column("UsuarioId")]
         public int ID { get; set;}
 
-        [Required]
         [Column("Email", TypeName = "varchar(250)")]
+        [Required(AllowEmptyStrings =false,ErrorMessage ="O Campo Email é obrigatorio")]
+        [StringLength(maximumLength:250,MinimumLength =5,ErrorMessage ="Quantidade de caracteres invalidos")]
+        [DataType(DataType.EmailAddress,ErrorMessage ="O Valor inserido não é um Email valido")]
         public string Email { get; set;}
 
-        [Required]
         [Column("Senha", TypeName ="varchar(250)")]
+        [Required(ErrorMessage = "A Senha é obrigatória")]
+        [StringLength(maximumLength: 250, MinimumLength = 5, ErrorMessage = "Quantidade de caracteres invalidos")]
         public string Senha { get; set;}
 
-        [Required]
-        [Column("TipoUsuario", TypeName="varchar(50)")]
+        [Column("TipoUsuario", TypeName="SMALLINT")]
+        [Required(ErrorMessage = "O Tipo de Usuario é obrigatório")]
         public En_TipoUsuario TipoUsuario { get; set;}
     }
 }

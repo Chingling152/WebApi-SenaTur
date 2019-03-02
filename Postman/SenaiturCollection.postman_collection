@@ -47,7 +47,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "\t{\r\n\t\t\"nome\": \"BONITO VIA CAMPO GRANDE - 1 PASSEIO - 5 DIAS / 4 DIÁRIAS\",\r\n\t\t\"descricao\": \"Localizado no estado de Mato Grosso do Sul e ao sul do Pantanal, Bonito possui centenas de cachoeiras, rios e lagos de águas cristalinas, além de cavernas inundadas, paredões rochosos e uma infinidade de peixes. Os aventureiros costumam render-se facilmente a esse destino regado por trilhas ecológicas, passeios de bote e descidas de rapel pelas inúmeras quedas d'água da região.\",\r\n\t\t\"dataIda\": \"03/28/19\",\r\n\t\t\"dataVolta\": \"04/01/19\",\r\n\t\t\"cidade\": \"Bonito\",\r\n\t\t\"valor\": 1004.00,\r\n\t\t\"ativo\": true\r\n\t}"
+							"raw": "{\n    \"nome\": \"RESORTS NA BAHIA - LITORAL NORTE - 5 DIAS / 4 DIÁRIAS\",\n    \"descricao\": \"O Litoral Norte da Bahia conta com inúmeras praias emolduradas por coqueiros, além de piscinas naturais de águas mornas que são protegidas por recifes e habitadas por peixes coloridos. Banhos de mar em águas calmas ou agitadas, mergulho com snorkel, caminhada pela orla e calçadões, passeios de bicicleta, pontos turísticos históricos, interação com animais e até baladas estão entre as atrações da região. Destacam-se as praias de Guarajuba, Imbassaí, Praia do Forte e Costa do Sauípe..\",\n    \"dataIda\": \"2019-05-14T00:00:00\",\n    \"dataVolta\": \"2019-05-18T00:00:00\",\n    \"cidade\": \"Salvador\",\n    \"valor\": 854,\n    \"ativo\": true\n}"
 						},
 						"url": {
 							"raw": "http://localhost:5000/api/Pacotes/Cadastrar",
@@ -60,6 +60,262 @@
 								"api",
 								"Pacotes",
 								"Cadastrar"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Cadastrar (Valores padrões)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "\t{\r\n\t\t\"nome\": \"RESORTS NA BAHIA - LITORAL NORTE - 5 DIAS / 4 DIÁRIAS\",\r\n\t\t\"descricao\": \"O Litoral Norte da Bahia conta com inúmeras praias emolduradas por coqueiros, além de piscinas naturais de águas mornas que são protegidas por recifes e habitadas por peixes coloridos. Banhos de mar em águas calmas ou agitadas, mergulho com snorkel, caminhada pela orla e calçadões, passeios de bicicleta, pontos turísticos históricos, interação com animais e até baladas estão entre as atrações da região. Destacam-se as praias de Guarajuba, Imbassaí, Praia do Forte e Costa do Sauípe..\",\r\n\t\t\"dataIda\": \"05/14/19\",\r\n\t\t\"dataVolta\": \"05/18/19\",\r\n\t\t\"cidade\": \"Salvador\",\r\n\t\t\"valor\": 854.00,\r\n\t\t\"ativo\": true\r\n\t}"
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/Pacotes/Cadastrar",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"Pacotes",
+										"Cadastrar"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 02 Mar 2019 15:40:46 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"nome\": \"BONITO VIA CAMPO GRANDE - 1 PASSEIO - 5 DIAS / 4 DIÁRIAS\",\n        \"descricao\": \"Localizado no estado de Mato Grosso do Sul e ao sul do Pantanal, Bonito possui centenas de cachoeiras, rios e lagos de águas cristalinas, além de cavernas inundadas, paredões rochosos e uma infinidade de peixes. Os aventureiros costumam render-se facilmente a esse destino regado por trilhas ecológicas, passeios de bote e descidas de rapel pelas inúmeras quedas d'água da região.\",\n        \"dataIda\": \"2019-03-28T00:00:00\",\n        \"dataVolta\": \"2019-04-01T00:00:00\",\n        \"cidade\": \"Bonito\",\n        \"valor\": 1004,\n        \"ativo\": true\n    }\n    ,{\n        \"nome\": \"SALVADOR - 5 DIAS / 4 DIÁRIAS\",\n        \"descricao\": \"O que não falta em Salvador são atrações. Prova disso são as praias, os museus e as construções seculares que dão um charme mais que especial à região. A cidade, sinônimo de alegria, também é conhecida pela efervescência cultural que a credenciou como um dos destinos mais procurados por turistas brasileiros e estrangeiros. O Pelourinho e o Elevador são alguns dos principais pontos de visitação. .\",\n        \"dataIda\": \"2019-08-06T00:00:00\",\n        \"dataVolta\": \"2019-08-10T00:00:00\",\n        \"cidade\": \"Salvador\",\n        \"valor\": 854,\n        \"ativo\": true\n    }\n    ,{\n        \"nome\": \"RESORTS NA BAHIA - LITORAL NORTE - 5 DIAS / 4 DIÁRIAS\",\n        \"descricao\": \"O Litoral Norte da Bahia conta com inúmeras praias emolduradas por coqueiros, além de piscinas naturais de águas mornas que são protegidas por recifes e habitadas por peixes coloridos. Banhos de mar em águas calmas ou agitadas, mergulho com snorkel, caminhada pela orla e calçadões, passeios de bicicleta, pontos turísticos históricos, interação com animais e até baladas estão entre as atrações da região. Destacam-se as praias de Guarajuba, Imbassaí, Praia do Forte e Costa do Sauípe..\",\n        \"dataIda\": \"2019-05-14T00:00:00\",\n        \"dataVolta\": \"2019-05-18T00:00:00\",\n        \"cidade\": \"Salvador\",\n        \"valor\": 854,\n        \"ativo\": true\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Listar Por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Pacotes/Listar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pacotes",
+								"Listar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Alterar ",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n    \t\"id\":1,\n        \"nome\": \"SALVADOR - 7 DIAS / 4 DIÁRIAS\",\n        \"descricao\": \"O que não falta em Salvador são atrações. Prova disso são as praias, os museus e as construções seculares que dão um charme mais que especial à região. A cidade, sinônimo de alegria, também é conhecida pela efervescência cultural que a credenciou como um dos destinos mais procurados por turistas brasileiros e estrangeiros. O Pelourinho e o Elevador são alguns dos principais pontos de visitação..\",\n        \"dataIda\": \"2019-08-06T00:00:00\",\n        \"dataVolta\": \"2019-08-10T00:00:00\",\n        \"cidade\": \"Salvador\",\n        \"valor\": 854,\n        \"ativo\": true\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Pacotes/Alterar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pacotes",
+								"Alterar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remover",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Pacotes/Remover/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Pacotes",
+								"Remover",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"cliente@admin.com\",\n    \"senha\": \"cliente\",\n    \"tipoUsuario\": 2\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Usuarios/Cadastrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuarios",
+								"Cadastrar"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Valores Padrões",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": 0,\r\n  \"email\": \"admin@admin.com\",\r\n  \"senha\": \"admin\",\r\n  \"tipoUsuario\": 1\r\n}"
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/Usuarios/Cadastrar",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"Usuarios",
+										"Cadastrar"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 02 Mar 2019 21:04:53 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"email\": \"admin@admin.com\",\n        \"senha\": \"admin\",\n        \"tipoUsuario\": 1\n    },\n    {\n\t  \"email\": \"cliente@admin.com\",\n\t  \"senha\": \"cliente\",\n\t  \"tipoUsuario\": 2\n\t}\n]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Usuarios/ListarTodos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuarios",
+								"ListarTodos"
 							]
 						}
 					},

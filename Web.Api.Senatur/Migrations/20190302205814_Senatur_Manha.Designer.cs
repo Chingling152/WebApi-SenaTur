@@ -10,7 +10,7 @@ using Senai.Web.Api.Senatur.Context;
 namespace Senai.Web.Api.Senatur.Migrations
 {
     [DbContext(typeof(SenaturContext))]
-    [Migration("20190302162551_Senatur_Manha")]
+    [Migration("20190302205814_Senatur_Manha")]
     partial class Senatur_Manha
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,8 @@ namespace Senai.Web.Api.Senatur.Migrations
                     b.Property<string>("Cidade")
                         .IsRequired()
                         .HasColumnName("NomeCidade")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(200)")
+                        .HasMaxLength(250);
 
                     b.Property<DateTime>("DataIda")
                         .HasColumnName("DataIda")
@@ -48,12 +49,14 @@ namespace Senai.Web.Api.Senatur.Migrations
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnName("Descricao")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("TEXT")
+                        .HasMaxLength(1000);
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnName("PacoteNome")
-                        .HasColumnType("VARCHAR(250)");
+                        .HasColumnType("VARCHAR(250)")
+                        .HasMaxLength(250);
 
                     b.Property<decimal>("Valor")
                         .HasColumnName("Valor")
@@ -61,7 +64,7 @@ namespace Senai.Web.Api.Senatur.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("PACOTES");
+                    b.ToTable("Pacotes");
                 });
 
             modelBuilder.Entity("Senai.Web.Api.Senatur.Domains.UsuariosDomain", b =>
@@ -74,21 +77,22 @@ namespace Senai.Web.Api.Senatur.Migrations
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnName("Email")
-                        .HasColumnType("varchar(250)");
+                        .HasColumnType("varchar(250)")
+                        .HasMaxLength(250);
 
                     b.Property<string>("Senha")
                         .IsRequired()
                         .HasColumnName("Senha")
-                        .HasColumnType("varchar(250)");
+                        .HasColumnType("varchar(250)")
+                        .HasMaxLength(250);
 
-                    b.Property<string>("TipoUsuario")
-                        .IsRequired()
+                    b.Property<short>("TipoUsuario")
                         .HasColumnName("TipoUsuario")
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("SMALLINT");
 
                     b.HasKey("ID");
 
-                    b.ToTable("USUARIOS");
+                    b.ToTable("Usuarios");
                 });
 #pragma warning restore 612, 618
         }
