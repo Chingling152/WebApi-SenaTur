@@ -1,5 +1,8 @@
 ﻿using System;
+
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+
 using Senai.Web.Api.Senatur.Domains;
 using Senai.Web.Api.Senatur.Interfaces;
 using Senai.Web.Api.Senatur.Repositories;
@@ -34,6 +37,7 @@ namespace Senai.Web.Api.Senatur.Controllers {
             }
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost("Cadastrar")]
         public IActionResult Cadastrar(PacotesDomain pacote) {
             try {
@@ -44,6 +48,7 @@ namespace Senai.Web.Api.Senatur.Controllers {
             }
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("Remover/{ID}")]
         public IActionResult Remover(int ID) {
             try {
@@ -54,6 +59,7 @@ namespace Senai.Web.Api.Senatur.Controllers {
             }
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut("Alterar")]
         public IActionResult Alterar(PacotesDomain pacote) {
             try {

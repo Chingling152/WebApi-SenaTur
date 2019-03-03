@@ -9,5 +9,7 @@ namespace Senai.Web.Api.Senatur.Interfaces {
         List<UsuariosDomain> ListarTodos();
 
         UsuariosDomain ListarPorID(int ID);
+
+        UsuariosDomain Logar(string Email,string Senha);
     }
 }

@@ -32,10 +32,10 @@ namespace Web.Api.Senatur {
               "JwtBearer", x => {
                   x.TokenValidationParameters = new TokenValidationParameters() {
                       ValidateIssuer = true,
-                      ValidIssuer = "SenaturApi",
+                      ValidIssuer = "Senatur.WebApi",
 
                       ValidateAudience = true,
-                      ValidAudience = "SenaturApi",
+                      ValidAudience = "Senatur.WebApi",
 
                       ValidateLifetime = true,
                       ClockSkew = TimeSpan.FromMinutes(30),

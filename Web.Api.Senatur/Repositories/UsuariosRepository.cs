@@ -41,5 +41,13 @@ namespace Senai.Web.Api.Senatur.Repositories {
         /// </summary>
         /// <returns>Uma lista com todos os usuarios cadastrados no banco de dados</returns>
         public List<UsuariosDomain> ListarTodos() => new SenaturContext().Usuarios.ToList();
+
+        /// <summary>
+        /// Procura um usuario no banco de dados com o Email e Senha inseridos 
+        /// </summary>
+        /// <param name="Email">Email do Usuario a ser procurado</param>
+        /// <param name="Senha">Senha do Usuario a ser procurado</param>
+        /// <returns>Retorna um usuario se ele conter o Email e Senha inseridos , se não existir , retorna null</returns>
+        public UsuariosDomain Logar(string Email, string Senha) => new SenaturContext().Usuarios.ToList().Find(X => X.Email == Email && X.Senha == Senha);
     }
 }
